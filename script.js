@@ -14,3 +14,13 @@ const objs = [
        "hobbies": [1,"a", "verdade"]
     }
 ]
+
+//JSON
+    // Converter objeto pra JSON
+    const jsonData = JSON.stringify(objs);
+    console.log(jsonData);
+    //=========
+    //======
+    //Converter JSON para objeto
+    const objData = JSON.parse(jsonData);
+    console.log(objData);
